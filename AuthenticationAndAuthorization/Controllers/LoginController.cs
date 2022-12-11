@@ -11,6 +11,7 @@ namespace AuthenticationAndAuthorization.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Produces("application/json")]
     public class LoginController : ControllerBase
     {
         private IConfiguration _config;
